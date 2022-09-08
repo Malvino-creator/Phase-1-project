@@ -17,12 +17,16 @@ body{
 h2{
     text-transform: uppercase;
 }
-.cashflow-container{
+.cash-cont{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
-    box-shadow: 10px cornflowerblue;
+    box-shadow: 10px blue;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
 }
 .income-container{
     border: 10px solid blue;
@@ -34,7 +38,7 @@ h2{
 }
 .income-container{
     border-right:1px 
-    padding-right: 20px;
+    
 
 }
 .income-container{
