@@ -101,4 +101,6 @@ transaction li button :hover{
 #names, #amount{
     height: 10px;
     margin-bottom: 10px;
+    font-weight: bold;
+    padding-top: 5px;
 }
