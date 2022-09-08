@@ -80,11 +80,25 @@ h2{
 }
 #transaction li.income-amnt{
     display: inline-block;
-    color:blue;
+    font-display: blue;
     padding-left: 10px;
 }
 transaction li button :hover{
     background-color: red;
     border-radius: 10px;
     color: red;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+
+}
+#form-container labels{
+    padding-bottom: 10px;
+
+}
+#names{
+    height: 25px;
+    margin-bottom: 10px;
+    
 }
