@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.app h1{
+.web-app h1{
     text-align: center;
 }
 .balance-container #balance{
@@ -22,10 +22,10 @@ h2{
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
-    box-shadow: var(--box-shadow);
+    box-shadow: 10px cornflowerblue;
 }
 .income-container{
-    border-right: 1px solid white;
+    border: 10px solid blue;
     padding-right: 20px;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ h2{
     margin-top: 20px;
 }
 .income-container{
-    border-right:1px solid #cccc;
+    border-right:1px 
     padding-right: 20px;
 
 }
