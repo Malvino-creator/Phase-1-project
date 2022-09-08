@@ -98,9 +98,28 @@ transaction li button :hover{
     padding-bottom: 10px;
 
 }
-#names, #amount{
+#name, #amount{
     height: 10px;
     margin-bottom: 10px;
     font-weight: bold;
     padding-top: 5px;
+}
+.form-container form{
+    padding: 10px;
+    padding-top: 10px;
+}
+#expenseBtn{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 15px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+#incomeBtn{
+    background-color: blue;
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 15px;
 }
