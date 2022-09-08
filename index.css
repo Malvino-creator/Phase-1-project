@@ -5,16 +5,16 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:limegreen;
+    background-color:yellowgreen;
 }
 .web-app h1{
     text-align: center;
+    
 }
 .balance-container #balance{
     font-size: center;
     padding-right: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    
 }
 h2{
     text-transform: uppercase;
@@ -24,7 +24,7 @@ h2{
     align-items: center;
     justify-content: center;
     padding-top: 30px;
-    box-shadow: 10px indigo;
+    box-shadow: 10px darkblue;
     justify-items: center;
     justify-content:end;
     align-content: center;
@@ -41,14 +41,13 @@ h2{
 }
 .income-cont{
     border-right:1px 
-    
 
 }
 .income-cont{
     padding-left: 40px;
 }
 #income{
-    color: indigo;
+    color: darkblue;
     font-weight: bold;
     text-align: center;
 }
@@ -70,7 +69,7 @@ h2{
     margin-bottom: 10px;
     border:40px 30px solid;
     box-shadow: 20px;
-    background-color: indigo;
+    color-scheme: #ffae42;
     box-shadow: 50px;
     padding-right: 1px;
 }
@@ -83,7 +82,7 @@ h2{
 }
 #transaction li.income-amnt{
     display: inline-block;
-    background-color: indigo;
+    background-color: darkblue;
     padding-left: 10px;
 }
 transaction li button {
@@ -122,7 +121,7 @@ transaction li button {
     justify-content: center;
 }
 #incomeBtn{
-    background-color: indigo;
+    background-color:blue;
     border-radius: 10px;
     width: 50%;
     margin-top: 15px;
