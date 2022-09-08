@@ -91,14 +91,14 @@ transaction li button :hover{
 .form-container form{
     display: flex;
     flex-direction: column;
+    width: 290px;
 
 }
 #form-container labels{
     padding-bottom: 10px;
 
 }
-#names{
-    height: 25px;
+#names, #amount{
+    height: 10px;
     margin-bottom: 10px;
-    
 }
