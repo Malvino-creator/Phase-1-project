@@ -63,5 +63,9 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 10px;
-    box-shadow: 5px grey;
+    box-decoration-break: slice;
 }
+#h2{
+    text-align: center;
+}
+
