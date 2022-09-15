@@ -29,7 +29,9 @@ Currently not aware of any. Open to project improvement suggestions.
 
 # TECHNOLOGY USED
 HTML
-CSS3
+
+CSS
+
 Javascript
 
 # REFERENCE
