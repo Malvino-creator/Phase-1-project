@@ -3,16 +3,17 @@
 Expense-Tracker
 
 # TABLE OF CONTENTS
+
 Description
 Installation Requirement
 Technology Used
-Reference
 Licence
 Authors Info
 Live Site
 
 ## Description
 An application used to keep track of a user's daily expenses,in order to have control over their monthly expenses.
+The application has differet features including the balance, history and add new transaction features.
 
 # INSTALLATION REQUIREMENTS
 ## Instructions
@@ -42,7 +43,6 @@ CSS
 
 Javascript
 
-# REFERENCE
 
 # LICENCE
 MIT License

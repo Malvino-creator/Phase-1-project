@@ -3,73 +3,49 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Expense Tracker</title>
     <link rel="stylesheet" href="index.css">
+    <title>Expense Tracker</title>
 </head>
 
 <body>
-    <div class="web-app">
-    </div>
-    <h2> Expense Tracker</h2>
-    <div class="balance-container">
-        <h3> Your Balance</h3>
-        <h1 id="balance">$1000.00</h1>
-    </div>
+    <h2>Expense Tracker</h2>
 
-    <div class="cash-cont">
-        <div class="income-cont">
-            <h2>INCOME</h2>
-            <p id="income"> $15,000</p>
-        </div>
-        <div class="expense-container">
-            <h2>EXPENSE</h2>
-            <div id="expense">$200</div>
-        </div>
-    </div>
+    <div class="container">
+        <h4>Balance</h4>
+        <h1 id="balance">$100.00</h1>
 
-    <div class="transaction container">
-        <h2 id="h2">Transaction History</h2>
-        <ul id="transaction">
-            <li>Salary
-                <div>
-                    <span class="income-amnt">$10,000</span>
-                    <button>X</button>
-                </div>
-            </li>
-            <li>
-                Internet
-                <div>
-                    <span class="exp-amnt">$2000</span>
-                    <button>X</button>
-                </div>
-            </li>
-            <li>
-                Buy Groceries
-                <div>
-                    <span class="exp-amnt">$1000</span>
-                    <button>X</button>
-                </div>
-            </li>
+        <div class="inc-exp-cont">
+            <div>
+                <h4>Income</h4>
+                <p id="money-plus" class="money plus">+$0.00</p>
+            </div>
+            <div>
+                <h4>Expense</h4>
+                <p id="money-minus" class="money minus">-$0.00</p>
+            </div>
+        </div>
+
+        <h3>History</h3>
+        <ul id="list" class="list">
+
         </ul>
-        </div>
-        <div class="form-container">
-            <h2> Add New Entry</h2>
-            <form>
-                <label for="name"> Name</label>
-                <input id="name" type="text">
-                <label for="amount" type="number"> Amount</label>
-                <input id="amount" type="number">
-                <button id="incomeBtn">Add Income</button>
-                <button id="expenseBtn">Add Expense</button>
-            </form>
-        </div>
+
+        <h3>Add new transaction</h3>
+        <form id="form">
+            <div class="form-control">
+                <label for="text">Text</label>
+                <input type="text" id="text" placeholder="input text..." />
+            </div>
+            <div class="form-cntrl">
+                <label for="amount">Amount <br />
+                    (negative - expense, positive - income)</label>
+                <input type="number" id="amount" placeholder="Enter amount..." />
+            </div>
+            <button class="btn">Add transaction</button>
+        </form>
     </div>
 
-    </div>
-    </div>
-    </div>
     <script src="script.js"></script>
 </body>
 
